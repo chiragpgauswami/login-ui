@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Log In</title>
+</head>
+
+<body>
+    <div class="user-btn gr-bg" id="m-btn" onclick="openForm()">
+        <i class="fa fa-user"></i>
+    </div>
+    <form action="#" id="myForm">
+        <div class="form-title">
+            <div class="user-icon gr-bg" onclick="closeForm()">
+                <i class="fa fa-user"></i>
+            </div>
+            <h2>CSS LOGIN FORM</h2>
+        </div>
+        <label for="email"><i class="fa fa-envelope"></i> Email:</label>
+        <input type="email" id="email" class="cm-input" placeholder="Enter your email adress">
+        <label for="pass"><i class="fa fa-lock"></i> Password:</label>
+        <input id="pass" type="password" class="cm-input" placeholder="Enter your password">
+        <button type="submit" class="btn-login  gr-bg">Login</button>
+    </form>
+
+    <script src="assets/js.js"></script>
+</body>
+
+</html>
